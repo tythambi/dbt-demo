@@ -1,0 +1,8 @@
+version : 2
+
+models:
+  - name: stg_payments
+    description: Staging table for payments
+    columns:
+      - name: payment_method
+        description: '{{doc("payment_method")}}'
